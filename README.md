@@ -24,5 +24,5 @@ to adapt to your favorite package manager):
 }
 ```
 
-![Screenshot 1](screenshots/cybercrime1.png)
-![Screenshot 2](screenshots/cybercrime2.png)
+![Screenshot 1](screenshots/cybercrime1.jpg)
+![Screenshot 2](screenshots/cybercrime2.jpg)
