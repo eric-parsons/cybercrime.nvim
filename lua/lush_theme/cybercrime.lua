@@ -75,7 +75,7 @@ local theme = lush(function(injected_functions)
         -- VisualNOS      { }, -- Visual mode selection when vim is "Not Owning the Selection".
         Conceal        { }, -- Placeholder characters substituted for concealed text (see 'conceallevel')
         Cursor         { bg = colors.kw, fg = colors.white }, -- Character under the cursor
-        CurSearch      { bg = colors.op, fg = colors.white }, -- Highlighting a search pattern under the cursor (see 'hlsearch')
+        CurSearch      { bg = colors.op, fg = colors.bg }, -- Highlighting a search pattern under the cursor (see 'hlsearch')
         lCursor        { Cursor }, -- Character under the cursor when |language-mapping| is used (see 'guicursor')
         CursorIM       { Cursor }, -- Like Cursor, but used when in IME mode |CursorIM|
         CursorLine     { bg = colors.bg.li(5) }, -- Screen-line at the cursor, when 'cursorline' is set. Low-priority if foreground (ctermfg OR guifg) is not set.
