@@ -91,7 +91,7 @@ local theme = lush(function(injected_functions)
         -- TermCursorNC   { }, -- Cursor in an unfocused terminal
         ErrorMsg       { bg = colors.error }, -- Error messages on the command line
         -- VertSplit      { }, -- Column separating vertically split windows
-        Folded         { bg = colors.bg.li(5), fg = colors.comment, gui = "italic" }, -- Line used for closed folds
+        Folded         { bg = colors.bg.li(6), fg = colors.comment, gui = "italic" }, -- Line used for closed folds
         FoldColumn     { Folded, gui = "normal" }, -- 'foldcolumn'
         -- SignColumn     {}, -- Column where |signs| are displayed
         -- IncSearch      { CurSearch }, -- 'incsearch' highlighting; also used for the text replaced with ":s///c"
@@ -107,7 +107,7 @@ local theme = lush(function(injected_functions)
         -- MsgArea        { }, -- Area for messages and cmdline
         -- MsgSeparator   { }, -- Separator for scrolled messages, `msgsep` flag of 'display'
         MoreMsg        { fg = colors.const }, -- |more-prompt|
-        NonText        { fg = colors.bg.li(5) }, -- '@' at the end of the window, characters from 'showbreak' and other characters that do not really exist in the text (e.g., ">" displayed when a double-wide character doesn't fit at the end of the line). See also |hl-EndOfBuffer|.
+        NonText        { fg = colors.bg.li(10) }, -- '@' at the end of the window, characters from 'showbreak' and other characters that do not really exist in the text (e.g., ">" displayed when a double-wide character doesn't fit at the end of the line). See also |hl-EndOfBuffer|.
         NormalFloat    { bg = colors.bg.li(5), fg = colors.fg }, -- Normal text in floating windows.
         -- floatborder    { }, -- border of floating windows.
         FloatTitle     { fg = colors.const }, -- Title of floating windows.
@@ -128,9 +128,9 @@ local theme = lush(function(injected_functions)
         SpellCap       { sp = colors.warn }, -- Word that should start with a capital. |spell| Combined with the highlighting used otherwise.
         SpellLocal     { sp = colors.const }, -- Word that is recognized by the spellchecker as one that is used in another region. |spell| Combined with the highlighting used otherwise.
         SpellRare      { SpellLocal }, -- Word that is recognized by the spellchecker as one that is hardly ever used. |spell| Combined with the highlighting used otherwise.
-        StatusLine     { bg = colors.bg.da(30), fg = colors.fg }, -- Status line of current window
-        StatusLineNC   { bg = colors.bg.da(30), fg = colors.comment }, -- Status lines of not-current windows. Note: If this is equal to "StatusLine" Vim will use "^^^" in the status line of the current window.
-        TabLine        { bg = colors.bg.da(30), LineNr }, -- Tab pages line, not active tab page label
+        StatusLine     { bg = colors.bg.da(20), fg = colors.fg }, -- Status line of current window
+        StatusLineNC   { bg = colors.bg.da(20), fg = colors.comment }, -- Status lines of not-current windows. Note: If this is equal to "StatusLine" Vim will use "^^^" in the status line of the current window.
+        TabLine        { bg = colors.bg.da(20), LineNr }, -- Tab pages line, not active tab page label
         -- TabLineFill    { TabLine }, -- Tab pages line, where there are no labels
         -- TabLineSel     { fg = colors.light_gray }, -- Tab pages line, active tab page label
         Title          { fg = colors.white }, -- Titles for output from ":set all", ":autocmd" etc.
