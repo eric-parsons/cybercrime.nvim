@@ -46,8 +46,9 @@ local hsl = lush.hsl
 local theme = lush(function(injected_functions)
     local sym = injected_functions.sym
 
+    -- Inspired by the color palette found here:
+    -- https://lospec.com/palette-list/curiosities
     local colors = {
-
         white = hsl(0, 0, 100),
         bg = hsl(248,17,22),
         fg = hsl(40,100,90),
