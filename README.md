@@ -1,5 +1,4 @@
-A cyberpunk-themed color scheme for neovim. Works especially well with
-semi-transparent, futuristic backgrounds. It was created with
+A cyberpunk-themed color scheme for neovim. It was created with
 [Lush](http://git.io/lush.nvim).
 
 As with my other color schemes, it uses a reduced # of colors to emphasize only
