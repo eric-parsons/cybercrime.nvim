@@ -52,10 +52,10 @@ local theme = lush(function(injected_functions)
         white = hsl(0, 0, 100),
         bg = hsl(248, 17, 21),
         fg = hsl(40, 100, 90),
-        comment = hsl(192, 73, 37),
+        comment = hsl(195, 73, 37),
         type = hsl(40, 100, 90),
         const = hsl(8, 100, 81),
-        op = hsl(176, 100, 42),
+        op = hsl(172, 100, 42),
         kw = hsl(356, 100, 70),
 
         error = hsl(329,45,60);
