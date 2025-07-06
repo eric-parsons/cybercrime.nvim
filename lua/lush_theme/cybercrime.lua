@@ -50,7 +50,7 @@ local theme = lush(function(injected_functions)
     -- https://lospec.com/palette-list/curiosities
     local colors = {
         white = hsl(0, 0, 100),
-        bg = hsl(248, 17, 20),
+        bg = hsl(248, 17, 18),
         fg = hsl(40, 100, 90),
         comment = hsl(195, 73, 37),
         type = hsl(40, 100, 90),
